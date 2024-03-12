@@ -29,7 +29,7 @@ text_splitter=CharacterTextSplitter(
 
 data=text_splitter.split_text(text)
 
-os.environ["cohere_api_key"]="GZkU44Fif8lYSPCwzoYKzzrG8pFDfGYZHeLDci40"
+os.environ["cohere_api_key"]="------------"
 
 embedding=CohereEmbeddings()
 llm=Cohere(temperature=0.8)
